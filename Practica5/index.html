@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Roblox</title>
+</head>
+
+<body>
+    <h1>Agrega tu personaje</h1>
+    <form id="dataForm">
+        <label for="text">Nombre:</label>
+        <input type="text" id="nombre" name="text"><br>
+
+        <label for="email">Usuario:</label>
+        <input type="email" id="usuario" name="email"><br>
+
+        <label for="checkbox">Avatar:</label><br>
+        <input type="checkbox" id="Noob" name="checkbox" value="Noob">
+        <label for="checkbox1">Noob</label><br>
+        <input type="checkbox" id="Emo" name="checkbox" value="Emo">
+        <label for="checkbox2">Emo</label><br>
+        <input type="checkbox" id="Barbie" name="checkbox" value="Barbie">
+        <label for="checkbox3">Barbie</label><br>
+
+        <label>Cabello:</label><br>
+        <input type="radio" id="Afro" name="radio" value="Afro">
+        <label for="radio1">Afro</label><br>
+        <input type="radio" id="Lacio" name="radio" value="Lacio">
+        <label for="radio2">Lacio</label><br>
+        <input type="radio" id="Tocino" name="radio" value="Tocino">
+        <label for="radio3">Tocino</label><br>
+        <input type="radio" id="Coletas" name="radio" value="Coletas">
+        <label for="radio4">Coletas</label><br>
+
+        <label for="datetime">Cumpleaños</label>
+        <input type="datetime-local" id="fecha" name="fecha"><br>
+
+        <label for="color">Color de pelo:</label>
+        <input type="color" id="color" name="color"><br>
+
+        <label for="range">Rango de torzo:</label>
+        <input type="range" id="rango" name="range" min="0" max="100">
+    </form>
+    <button onclick="validarAgregar()">Agregar</button>
+
+    <h2>Personajes</h2>
+    <table id="content">
+
+    </table>
+</body>
+
+</html>

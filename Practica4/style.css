@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Estilo de cada sección */
+div {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="color"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Colores específicos para cada ejercicio */
+.ejercicio1 {
+    border-left: 8px solid #2196f3;
+}
+
+.ejercicio2 {
+    border-left: 8px solid #ff9800;
+}
+
+.ejercicio3 {
+    border-left: 8px solid #9c27b0;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}

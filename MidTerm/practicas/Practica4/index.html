@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Practica 4</title>
+</head>
+
+<body>
+    <!--Ejercicio 1-->
+    <div class="ejercicio1">
+        <h2>Calificaciones:</h2>
+        <form action="" id="form-calif">
+            <label for="calif">Calificacion:</label>
+            <input type="number" id="grade" required>
+            <button type="button" onclick="calif()">Calcular</button>
+        </form>
+        <p id="resultado1"></p>
+    </div>
+
+    <!--Ejercicio 2-->
+    <div class="ejercicio2">
+        <h2>Factorial</h2>
+        <form id="factorial">
+            <label for="number">Numero:</label>
+            <input type="number" id="numero" required>
+            <button type="button" onclick="obtenerNumero()">Calcular</button>
+        </form>
+        <p id="resultado2"></p>
+    </div>
+
+    <!--Ejercico 3-->
+    <div class="ejercicio3">
+        <h2>Formulario</h2>
+        <form action="" id="info">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required><br>
+
+            <label for="email">Correo:</label>
+            <input type="email" id="email" required><br>
+
+            <label for="age">Edad:</label>
+            <input type="number" id="age" required><br>
+
+            <label>Género:</label>
+            <input type="radio" name="gender" value="Masculino" required> Masculino
+            <input type="radio" name="gender" value="Femenino" required> Femenino<br>
+
+            <label for="dob">Fecha de Nacimiento:</label>
+            <input type="date" id="dob" required><br>
+
+            <label for="color">Color Favorito:</label>
+            <input type="color" id="color" required><br>
+
+            <button type="button" onclick="send()">Enviar</button>
+            <p id="resultado3"></p>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

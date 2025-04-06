@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e;
+    /* Fondo oscuro */
+    color: #ffffff;
+    /* Texto blanco */
+    margin: 0;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #ff7f00;
+    /* Color naranja similar a Roblox */
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    /* Tipografía divertida */
+    letter-spacing: 2px;
+}
+
+/* Estilos del formulario */
+form {
+    background-color: #2d2d2d;
+    /* Fondo gris oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff7f00;
+    /* Color naranja */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="color"],
+input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ff7f00;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    accent-color: #ff7f00;
+    /* Color naranja para el rango */
+}
+
+/* Estilos para los botones */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff7f00;
+    /* Color naranja */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e66a00;
+    /* Naranja más oscuro al pasar el mouse */
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background-color: #ff7f00;
+    /* Color naranja para el encabezado */
+    color: #ffffff;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #3d3d3d;
+    /* Fondo gris más claro para filas pares */
+}
+
+tr:hover {
+    background-color: #4d4d4d;
+    /* Fondo gris más claro al pasar el mouse */
+}
+
+/* Estilos para el color de pelo */
+td:nth-child(5) {
+    text-align: center;
+}
+
+td:nth-child(5) div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+/* Estilos para los checkboxes y radios */
+input[type="checkbox"]+label,
+input[type="radio"]+label {
+    font-weight: normal;
+    color: #ffffff;
+}
